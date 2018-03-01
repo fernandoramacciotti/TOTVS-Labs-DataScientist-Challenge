@@ -13,5 +13,5 @@ Since the dataset is very small, a sophisticated forecast model cannot be applie
 2. Historical median
 3. Facebook's prophet package for automatic time series forecasting.
 
-A holdout period of 2 days was used to validate the model.
+A holdout period of 2 days was used to validate the model, using Mean Squared Error (MSE). The average of the three forecasts was weighted by the inverse of validation MSE of each model.
 

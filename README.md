@@ -1,7 +1,7 @@
 # TOTVSLabs Data Challenge for Data Scientist position
 ### Fernando Martinelli Ramacciotti | fernandoramacciotti@gmail.com
 
-Give a dataset of restaurant receipts, tThe objective of the challenge is:
+Give a dataset of restaurant receipts, the objective of the challenge is:
 1. Parse and extract the data.
 2. Identify a pattern on any set of fields that can help predict how much a customer will spend.
 3. Calculate a sales forecast for the next week.
@@ -13,5 +13,5 @@ Since the dataset is very small, a sophisticated forecast model cannot be applie
 2. Historical median
 3. Facebook's prophet package for automatic time series forecasting.
 
-We have used a
+A holdout period of 2 days was used to validate the model.
 
